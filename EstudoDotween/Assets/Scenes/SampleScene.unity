@@ -205,7 +205,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 137313189}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: movechangeimage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &137313189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,7 +338,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 202586941}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: Move
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &202586941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,7 +483,7 @@ GameObject:
   - component: {fileID: 254323448}
   - component: {fileID: 254323447}
   m_Layer: 5
-  m_Name: Move Up and Down
+  m_Name: Move Go and Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -528,7 +552,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 254323448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: goandreturn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &254323448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -811,7 +847,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 680595369}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: Fadecar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &680595369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1257,7 +1305,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 981938272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: moverotare
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &981938272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1465,6 +1525,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1232355419}
+  - component: {fileID: 1232355420}
   m_Layer: 0
   m_Name: Global
   m_TagString: Untagged
@@ -1486,6 +1547,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1232355420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232355418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b85e4ef539c3e8d49a0fe0fad993fc23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car: {fileID: 818795405}
+  othercar: {fileID: 21300000, guid: a3dfe7a89a8198e4dbe675ba327bc269, type: 3}
+  car1: {fileID: 21300000, guid: 2ed76717d5fb3504b8446e9702cd9ce8, type: 3}
 --- !u!1 &1375721234
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,7 +1710,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1426011144}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: moverotatefinal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1426011144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1822,7 +1910,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Move Up and Down
+  m_Text: 'Move Go and Back
+
+'
 --- !u!222 &1728707777
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1913,7 +2003,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2126361454}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1232355420}
+        m_TargetAssemblyTypeName: GlobalActions, Assembly-CSharp
+        m_MethodName: restore
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2126361454
 MonoBehaviour:
   m_ObjectHideFlags: 0
